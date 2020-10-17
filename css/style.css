@@ -1,0 +1,60 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.heading {
+  font-family: 'Staatliches', cursive; }
+
+.heading-primary {
+  font-size: 5rem;
+  letter-spacing: 0.4rem; }
+
+.text-primary {
+  font-size: 1.7rem;
+  line-height: 2.5rem;
+  color: #eee; }
+
+.main-container {
+  max-width: 1200px;
+  width: 95%;
+  margin: auto; }
+
+.btn {
+  font-family: 'Staatliches', cursive;
+  background-color: #ffd71b;
+  color: #000;
+  padding: 1.5rem 0;
+  border: none;
+  font-size: 2rem;
+  width: 20rem; }
+
+.home-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1578303167445-010412f56624?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80");
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative; }
+  .home-header .content {
+    position: absolute;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    width: 93%; }
+  .home-header--heading-primary {
+    margin-bottom: 1.5rem; }
+  .home-header--text-primary {
+    margin-bottom: 3rem; }

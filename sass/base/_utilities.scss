@@ -1,0 +1,15 @@
+.main-container {
+  max-width: 1200px;
+  width: 95%;
+  margin: auto;
+}
+
+.btn {
+  font-family: 'Staatliches', cursive;
+  background-color: $clr-yellow;
+  color: #000;
+  padding: 1.5rem 0;
+  border: none;
+  font-size: 2rem;
+  width: 20rem;
+}
