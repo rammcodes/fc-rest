@@ -29,6 +29,12 @@ body {
   font-size: 5rem;
   letter-spacing: 0.4rem; }
 
+.heading-secondary {
+  font-size: 3rem;
+  letter-spacing: 2px;
+  color: #eee;
+  line-height: 3.5rem; }
+
 .text-primary {
   font-size: 1.7rem;
   line-height: 2.5rem;
@@ -97,3 +103,22 @@ body {
     transform: translate(-50%, -50%); }
   .home-header__scroll-animation {
     width: 100%; }
+
+.greetings {
+  background: #000; }
+  .greetings__msg {
+    padding: 4rem 2rem 2rem 2rem; }
+  .greetings--heading-secondary {
+    margin-bottom: 2rem; }
+  .greetings--text-primary {
+    font-size: 1.5rem; }
+  .greetings__visual {
+    padding: 5rem; }
+  .greetings__visual-img-cont {
+    width: 100%;
+    height: 40rem;
+    overflow: hidden; }
+    .greetings__visual-img-cont img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
