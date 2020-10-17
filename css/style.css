@@ -128,11 +128,11 @@ body {
     width: 100%;
     height: 40rem;
     overflow: hidden; }
-    .greetings__visual-img-cont img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center; }
+  .greetings__visual-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center; }
 
 .features {
   background-color: orange; }
@@ -150,12 +150,12 @@ body {
       left: 0;
       background: rgba(0, 0, 0, 0.7);
       z-index: 1; }
-    .features__feature img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      object-position: center;
-      z-index: 0; }
+  .features__feature-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 0; }
   .features__content {
     z-index: 2;
     position: absolute;
