@@ -66,3 +66,30 @@
     }
   }
 }
+
+.features {
+  background-color: orange;
+  &__feature {
+    width: 100%;
+    height: 60rem;
+    overflow: hidden;
+    position: relative;
+    &::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 1;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      z-index: 0;
+    }
+  }
+}

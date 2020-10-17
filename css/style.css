@@ -59,7 +59,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
   padding: 2rem 1.5rem;
   transition: 1s; }
   .main-nav--main-container {
@@ -128,3 +128,26 @@ body {
       height: 100%;
       object-fit: cover;
       object-position: center; }
+
+.features {
+  background-color: orange; }
+  .features__feature {
+    width: 100%;
+    height: 60rem;
+    overflow: hidden;
+    position: relative; }
+    .features__feature::after {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: rgba(0, 0, 0, 0.7);
+      z-index: 1; }
+    .features__feature img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      z-index: 0; }
