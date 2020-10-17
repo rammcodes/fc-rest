@@ -20,5 +20,19 @@
 
   &--text-primary {
     margin-bottom: 3rem;
+    font-weight: 500;
+  }
+
+  &__scroll-animation-cont {
+    animation: up-down 4s ease-out;
+    animation-iteration-count: infinite;
+    position: absolute;
+    left: 45%;
+    top: 93%;
+    width: 4rem;
+    transform: translate(-50%, -50%);
+  }
+  &__scroll-animation {
+    width: 100%;
   }
 }
