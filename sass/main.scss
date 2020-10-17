@@ -7,5 +7,8 @@
 @import 'base/typography';
 @import 'base/utilities';
 
+// imports => components
+@import 'components/main-nav';
+
 // imports => page
 @import 'pages/home';

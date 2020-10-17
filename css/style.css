@@ -40,6 +40,26 @@ body {
   font-size: 2rem;
   width: 20rem; }
 
+.main-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+  padding: 2rem 1.5rem; }
+  .main-nav--main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .main-nav__sm-scr-menu-icon-cont {
+    width: 3.5rem; }
+  .main-nav__sm-scr-menu-icon {
+    width: 100%; }
+  .main-nav__brand-logo-cont {
+    width: 4.5rem; }
+  .main-nav__brand-logo {
+    width: 100%; }
+
 .home-header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1578303167445-010412f56624?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=564&q=80");
   min-height: 100vh;
