@@ -199,7 +199,7 @@ body {
 
 .menu-hl {
   background: #181a1b;
-  background: linear-gradient(to bottom, #ffd71b, #ffd71b);
+  background: linear-gradient(to right, #333, #222);
   padding: 5rem 1rem;
   text-align: center;
   position: relative; }
