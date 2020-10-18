@@ -6,6 +6,20 @@
   100% {
     transform: translateY(0); } }
 
+@keyframes from-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes from-right {
+  0% {
+    transform: translateX(100px); }
+  100% {
+    transform: translateY(0); } }
+
 *,
 *::before,
 *::after {
@@ -99,9 +113,13 @@ body {
     color: #fff;
     width: 93%; }
   .home-header--heading-primary {
-    margin-bottom: 1.5rem; }
+    margin-bottom: 1.5rem;
+    animation: from-left 1s ease-out; }
   .home-header--text-primary {
-    margin-bottom: 3rem; }
+    margin-bottom: 3rem;
+    animation: from-left 1s ease-out; }
+  .home-header--btn {
+    animation: from-right 1s ease-out; }
   .home-header__scroll-animation-cont {
     animation: up-down 4s ease-out;
     animation-iteration-count: infinite;
