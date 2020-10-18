@@ -229,8 +229,7 @@ body {
   .menu-hl__col {
     padding: 1rem 1rem 2rem 1rem;
     background: #000;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    border-radius: 1rem; }
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
   .menu-hl__menu-item {
     margin-bottom: 2rem; }
     .menu-hl__menu-item:last-child {
