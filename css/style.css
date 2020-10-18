@@ -73,6 +73,9 @@ body {
   font-size: 2rem;
   width: 20rem; }
 
+.mb-bg {
+  margin-bottom: 2rem; }
+
 .main-nav {
   position: fixed;
   top: 0;
@@ -191,3 +194,41 @@ body {
     line-height: 2.8rem;
     margin: 0 auto 3rem auto;
     color: #fff; }
+
+.menu-hl {
+  background: #000;
+  padding: 5rem 1rem;
+  text-align: center; }
+  .menu-hl--heading-secondary {
+    text-align: center;
+    border-bottom: 2px solid #ffd71b;
+    padding: 1rem;
+    display: inline-block;
+    margin-bottom: 4rem; }
+  .menu-hl__row {
+    margin-bottom: 5rem; }
+  .menu-hl__menu-item {
+    margin-bottom: 2rem; }
+    .menu-hl__menu-item-upper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 1rem; }
+    .menu-hl__menu-item-name {
+      font-size: 1.5rem;
+      color: #eee; }
+    .menu-hl__menu-item-price {
+      font-size: 1.4rem;
+      color: #ffd71b; }
+    .menu-hl__menu-item-btm {
+      padding: 0rem 1rem; }
+    .menu-hl__menu-item-ing {
+      display: flex;
+      align-items: center;
+      color: #969696;
+      font-size: 1.1rem;
+      font-weight: bold; }
+      .menu-hl__menu-item-ing span {
+        margin-left: 0.5rem; }
+        .menu-hl__menu-item-ing span:first-child {
+          margin-left: 0; }
