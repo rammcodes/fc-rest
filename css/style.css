@@ -72,17 +72,17 @@ body {
     align-items: center;
     justify-content: space-between; }
   .main-nav__sm-scr-menu-icon-cont {
-    width: 3.5rem; }
+    width: 3rem; }
   .main-nav__sm-scr-menu-icon {
     width: 100%; }
   .main-nav__brand-logo-cont {
-    width: 4.5rem; }
+    width: 4rem; }
   .main-nav__brand-logo {
     width: 100%; }
 
 .main-nav-inv {
   background: #000;
-  padding: 1.5rem; }
+  padding: 1rem; }
 
 .home-header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
