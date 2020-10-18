@@ -120,7 +120,7 @@
 }
 
 .menu-hl {
-  background: #000;
+  background: #181a1b;
   padding: 5rem 1rem;
   text-align: center;
   &--heading-secondary {
@@ -137,8 +137,8 @@
   &__col {
     padding: 1rem 1rem 2rem 1rem;
     background: rgba($clr-yellow, 0.1);
-    box-shadow: 0 0px 2px $clr-yellow;
-    border-radius: 5px;
+    box-shadow: 0 0 2px rgba(#fff, 0.3);
+    background: #222;
   }
   &__menu-item {
     margin-bottom: 2rem;

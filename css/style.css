@@ -196,7 +196,7 @@ body {
     color: #fff; }
 
 .menu-hl {
-  background: #000;
+  background: #181a1b;
   padding: 5rem 1rem;
   text-align: center; }
   .menu-hl--heading-secondary {
@@ -210,8 +210,8 @@ body {
   .menu-hl__col {
     padding: 1rem 1rem 2rem 1rem;
     background: rgba(255, 215, 27, 0.1);
-    box-shadow: 0 0px 2px #ffd71b;
-    border-radius: 5px; }
+    box-shadow: 0 0 2px rgba(255, 255, 255, 0.3);
+    background: #222; }
   .menu-hl__menu-item {
     margin-bottom: 2rem; }
     .menu-hl__menu-item:last-child {
