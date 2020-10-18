@@ -207,8 +207,13 @@ body {
     margin-bottom: 4rem; }
   .menu-hl__row {
     margin-bottom: 5rem; }
+  .menu-hl__col {
+    border: 1px dashed #ffd71b;
+    padding: 1.5rem 1.5rem 2.5rem 1.5rem; }
   .menu-hl__menu-item {
     margin-bottom: 2rem; }
+    .menu-hl__menu-item:last-child {
+      margin-bottom: 0; }
     .menu-hl__menu-item-upper {
       display: flex;
       justify-content: space-between;
@@ -232,3 +237,7 @@ body {
         margin-left: 0.5rem; }
         .menu-hl__menu-item-ing span:first-child {
           margin-left: 0; }
+  .menu-hl--btn {
+    background: unset;
+    color: #ffd71b;
+    border: 1px solid #ffd71b; }
