@@ -135,8 +135,10 @@
   }
 
   &__col {
-    border: 1px dashed $clr-yellow;
-    padding: 1.5rem 1.5rem 2.5rem 1.5rem;
+    padding: 1rem 1rem 2rem 1rem;
+    background: rgba($clr-yellow, 0.1);
+    box-shadow: 0 0px 2px $clr-yellow;
+    border-radius: 5px;
   }
   &__menu-item {
     margin-bottom: 2rem;
