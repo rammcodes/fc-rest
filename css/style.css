@@ -213,7 +213,7 @@ body {
     display: inline-block;
     font-size: 2rem; }
   .menu-features__row {
-    margin-top: 3rem;
+    margin-top: 4rem;
     text-align: left;
     margin-bottom: 4rem; }
   .menu-features__feature {
@@ -236,5 +236,5 @@ body {
     font-size: 1.4rem;
     color: #eee;
     color: #999083;
-    line-height: 2.3rem;
+    line-height: 2.5rem;
     font-weight: 500; }
