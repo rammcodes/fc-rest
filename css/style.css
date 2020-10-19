@@ -20,6 +20,12 @@
   100% {
     transform: translateY(0); } }
 
+@keyframes rotate-zero {
+  0% {
+    transform: rotateZ(-10deg); }
+  100% {
+    transform: rotateZ(0); } }
+
 *,
 *::before,
 *::after {
@@ -198,9 +204,9 @@ body {
     color: #fff; }
 
 .menu-hl {
-  background: #181a1b;
   background: linear-gradient(to right, #333, #222);
-  padding: 5rem 1rem;
+  padding: 6rem 1rem 4rem 1rem;
+  background: #222;
   text-align: center;
   position: relative; }
   .menu-hl--heading-secondary {
@@ -224,12 +230,22 @@ body {
     align-items: flex-end;
     justify-content: center; }
   .menu-hl__row {
-    margin-top: 10rem;
-    margin-bottom: 6rem; }
+    margin-top: 8rem; }
   .menu-hl__col {
     padding: 1rem 1rem 2rem 1rem;
     background: #000;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 3rem; }
+    .menu-hl__col:nth-child(2) {
+      background: #ffd71b; }
+    .menu-hl__col:last-child {
+      margin-bottom: 0; }
+    .menu-hl__col:hover {
+      transform: rotateZ(0);
+      z-index: 9;
+      animation: rotate-zero 0.3s ease-out; }
   .menu-hl__menu-item {
     margin-bottom: 2rem; }
     .menu-hl__menu-item:last-child {
@@ -242,9 +258,13 @@ body {
     .menu-hl__menu-item-name {
       font-size: 1.5rem;
       color: #eee; }
+    .menu-hl__menu-item-name-inv {
+      color: #000; }
     .menu-hl__menu-item-price {
       font-size: 1.4rem;
       color: #ffd71b; }
+    .menu-hl__menu-item-price-inv {
+      color: #222; }
     .menu-hl__menu-item-btm {
       padding: 0rem 1rem; }
     .menu-hl__menu-item-ing {
@@ -257,7 +277,10 @@ body {
         margin-left: 0.5rem; }
         .menu-hl__menu-item-ing span:first-child {
           margin-left: 0; }
+    .menu-hl__menu-item-ing-inv {
+      color: #555; }
   .menu-hl--btn {
+    margin-top: 4rem;
     background: #000;
     color: #ffd71b;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4); }
