@@ -447,3 +447,14 @@
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
   }
 }
+
+// &:nth-child(2) {
+    //   background: $clr-yellow-drk;
+    //   h5 {
+    //     color: #000;
+    //   }
+    //   p {
+    //     color: #555;
+    //     font-weight: 500;
+    //   }
+    // }

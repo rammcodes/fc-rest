@@ -134,36 +134,27 @@
   &__row {
     margin-top: 3rem;
     text-align: left;
+    margin-bottom: 4rem;
   }
   &__feature {
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
     background: #222;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     margin-bottom: 2.5rem;
     &:last-child {
       margin-bottom: 0;
     }
-    // &:nth-child(2) {
-    //   background: $clr-yellow-drk;
-    //   h5 {
-    //     color: #000;
-    //   }
-    //   p {
-    //     color: #555;
-    //     font-weight: 500;
-    //   }
-    // }
   }
   &__icon-cont {
     width: 6rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     img {
       width: 100%;
     }
   }
   &__feature-name {
     font-size: 1.8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: #eee;
   }
   &__feature-desc {

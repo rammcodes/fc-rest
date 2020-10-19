@@ -214,9 +214,10 @@ body {
     font-size: 2rem; }
   .menu-features__row {
     margin-top: 3rem;
-    text-align: left; }
+    text-align: left;
+    margin-bottom: 4rem; }
   .menu-features__feature {
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
     background: #222;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     margin-bottom: 2.5rem; }
@@ -224,12 +225,12 @@ body {
       margin-bottom: 0; }
   .menu-features__icon-cont {
     width: 6rem;
-    margin-bottom: 1rem; }
+    margin-bottom: 1.5rem; }
     .menu-features__icon-cont img {
       width: 100%; }
   .menu-features__feature-name {
     font-size: 1.8rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     color: #eee; }
   .menu-features__feature-desc {
     font-size: 1.4rem;
