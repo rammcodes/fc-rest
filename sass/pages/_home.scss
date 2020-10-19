@@ -169,11 +169,11 @@
     &:last-child {
       margin-bottom: 0;
     }
-    &:hover {
-      transform: rotateZ(0);
-      z-index: 9;
-      animation: rotate-zero 0.3s ease-out;
-    }
+    // &:hover {
+    //   transform: rotateZ(0);
+    //   z-index: 9;
+    //   animation: rotate-zero 0.3s ease-out;
+    // }
   }
 
   &__menu-item {

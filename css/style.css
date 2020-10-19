@@ -242,10 +242,6 @@ body {
       background: #ffd71b; }
     .menu-hl__col:last-child {
       margin-bottom: 0; }
-    .menu-hl__col:hover {
-      transform: rotateZ(0);
-      z-index: 9;
-      animation: rotate-zero 0.3s ease-out; }
   .menu-hl__menu-item {
     margin-bottom: 2rem; }
     .menu-hl__menu-item:last-child {
