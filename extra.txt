@@ -1,0 +1,449 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="menu-hl">
+      <div class="main-container">
+        <h2 class="heading heading-secondary menu-hl--heading-secondary mb-bg">
+          Menu
+        </h2>
+        <div class="menu-hl__row">
+          <div class="menu-hl__col">
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-hl__col">
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name menu-hl__menu-item-name-inv">
+                  Veg Spinach Stuffed
+                </h4>
+                <h5
+                  class="menu-hl__menu-item-price menu-hl__menu-item-price-inv"
+                >
+                  $69.69
+                </h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing menu-hl__menu-item-ing-inv">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name menu-hl__menu-item-name-inv">
+                  Veg Spinach Stuffed
+                </h4>
+                <h5
+                  class="menu-hl__menu-item-price menu-hl__menu-item-price-inv"
+                >
+                  $69.69
+                </h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing menu-hl__menu-item-ing-inv">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name menu-hl__menu-item-name-inv">
+                  Veg Spinach Stuffed
+                </h4>
+                <h5
+                  class="menu-hl__menu-item-price menu-hl__menu-item-price-inv"
+                >
+                  $69.69
+                </h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing menu-hl__menu-item-ing-inv">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name menu-hl__menu-item-name-inv">
+                  Veg Spinach Stuffed
+                </h4>
+                <h5
+                  class="menu-hl__menu-item-price menu-hl__menu-item-price-inv"
+                >
+                  $69.69
+                </h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing menu-hl__menu-item-ing-inv">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name menu-hl__menu-item-name-inv">
+                  Veg Spinach Stuffed
+                </h4>
+                <h5
+                  class="menu-hl__menu-item-price menu-hl__menu-item-price-inv"
+                >
+                  $69.69
+                </h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing menu-hl__menu-item-ing-inv">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name menu-hl__menu-item-name-inv">
+                  Veg Spinach Stuffed
+                </h4>
+                <h5
+                  class="menu-hl__menu-item-price menu-hl__menu-item-price-inv"
+                >
+                  $69.69
+                </h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing menu-hl__menu-item-ing-inv">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name menu-hl__menu-item-name-inv">
+                  Veg Spinach Stuffed
+                </h4>
+                <h5
+                  class="menu-hl__menu-item-price menu-hl__menu-item-price-inv"
+                >
+                  $69.69
+                </h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing menu-hl__menu-item-ing-inv">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name menu-hl__menu-item-name-inv">
+                  Veg Spinach Stuffed
+                </h4>
+                <h5
+                  class="menu-hl__menu-item-price menu-hl__menu-item-price-inv"
+                >
+                  $69.69
+                </h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing menu-hl__menu-item-ing-inv">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu-hl__col">
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+            <div class="menu-hl__menu-item">
+              <div class="menu-hl__menu-item-upper">
+                <h4 class="menu-hl__menu-item-name">Veg Spinach Stuffed</h4>
+                <h5 class="menu-hl__menu-item-price">$69.69</h5>
+              </div>
+              <div class="menu-hl__menu-item-btm">
+                <div class="menu-hl__menu-item-ing">
+                  <span>Spinach</span>, <span>Cucumber</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="btn menu-hl--btn">Full Menu</button>
+      </div>
+    </section>
+  </body>
+</html> -->
+
+
+.menu-hl {
+  display: none;
+  background: linear-gradient(to right, #333, #222);
+  padding: 6rem 1rem 4rem 1rem;
+  background: #222;
+  text-align: center;
+  position: relative;
+  &--heading-secondary {
+    text-align: center;
+    position: absolute;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    padding-bottom: 3.5rem;
+    display: inline-block;
+    margin-bottom: 6rem;
+    color: #000;
+    border-radius: 20rem;
+    background: #000;
+    color: $clr-yellow;
+    width: 20rem;
+    height: 20rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+  &__row {
+    margin-top: 8rem;
+    // display: flex;
+    // justify-content: space-between;
+    // align-items: center;
+  }
+
+  &__col {
+    padding: 1rem 1rem 2rem 1rem;
+    background: #000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    width: 100%;
+    border-radius: 5px;
+    //transform: rotateZ(-10deg);
+    margin-bottom: 3rem;
+    &:nth-child(2) {
+      background: $clr-yellow;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+    // &:hover {
+    //   transform: rotateZ(0);
+    //   z-index: 9;
+    //   animation: rotate-zero 0.3s ease-out;
+    // }
+  }
+
+  &__menu-item {
+    margin-bottom: 2rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &-upper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 1rem;
+    }
+    &-name {
+      font-size: 1.5rem;
+      color: #eee;
+    }
+    &-name-inv {
+      color: #000;
+    }
+    &-price {
+      font-size: 1.4rem;
+      color: $clr-yellow;
+    }
+    &-price-inv {
+      color: #222;
+    }
+    &-btm {
+      padding: 0rem 1rem;
+    }
+    &-ing {
+      display: flex;
+      align-items: center;
+      color: rgb(150, 150, 150);
+      font-size: 1.1rem;
+      font-weight: bold;
+      span {
+        margin-left: 0.5rem;
+        &:first-child {
+          margin-left: 0;
+        }
+      }
+    }
+    &-ing-inv {
+      color: #555;
+    }
+  }
+  &--btn {
+    margin-top: 4rem;
+    background: #000;
+    color: $clr-yellow;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+}
