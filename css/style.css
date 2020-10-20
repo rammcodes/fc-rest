@@ -66,7 +66,7 @@ body {
   color: #eee; }
 
 .main-container {
-  max-width: 1200px;
+  max-width: 114rem;
   width: 95%;
   margin: auto; }
 
@@ -209,7 +209,6 @@ body {
   background: #000; }
   .menu-features--heading-secondary__sm {
     color: #ffd71b;
-    margin-bottom: 1.5rem;
     display: inline-block;
     font-size: 2rem; }
   .menu-features__row {
