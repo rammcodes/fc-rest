@@ -16,6 +16,11 @@ body {
   letter-spacing: 2px;
   color: #eee;
   line-height: 5rem;
+  &__sm {
+    color: $clr-yellow;
+    display: inline-block;
+    font-size: 2rem;
+  }
 }
 
 .text-primary {
