@@ -172,7 +172,7 @@ body {
       font-size: 1.6rem;
       width: 100%; }
   .contact-main__contact-alt {
-    padding: 5rem 0; }
+    padding: 7rem 1rem; }
     .contact-main__contact-alt h2 {
       font-size: 3.5rem;
       margin-bottom: 2rem; }
@@ -189,7 +189,8 @@ body {
         .contact-main__contact-alt__row__contact-method__icon-cont img {
           width: 100%; }
       .contact-main__contact-alt__row__contact-method .text {
-        font-size: 1.8rem; }
+        font-size: 1.5rem;
+        text-transform: uppercase; }
 
 .home-header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1578474846511-04ba529f0b88?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
