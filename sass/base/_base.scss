@@ -14,3 +14,9 @@ html {
 body {
   box-sizing: border-box;
 }
+
+textarea:focus,
+input:focus,
+button:focus {
+  outline: none;
+}
