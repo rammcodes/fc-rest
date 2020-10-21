@@ -24,6 +24,7 @@ body {
   position: relative;
   &__form-container {
     margin-top: -15rem;
+    animation: from-bottom .7s ease-out;
   }
   &__form {
     background: #000;

@@ -33,6 +33,16 @@
   }
 }
 
+@keyframes from-bottom {
+  0% {
+    transform: translateY(100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 @keyframes rotate-zero {
   0% {
     transform: rotateZ(-10deg);
