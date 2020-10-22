@@ -184,6 +184,10 @@ body {
         display: flex;
         align-items: center;
         margin-bottom: 1.3rem; }
+        .contact-main__contact-alt__row__contact-method:last-child {
+          align-items: unset; }
+          .contact-main__contact-alt__row__contact-method:last-child span {
+            margin-top: 0.6rem; }
         .contact-main__contact-alt__row__contact-method :last-child {
           margin-bottom: 0rem; }
         .contact-main__contact-alt__row__contact-method__icon-cont {
@@ -194,7 +198,8 @@ body {
             width: 100%; }
         .contact-main__contact-alt__row__contact-method .text {
           font-size: 1.5rem;
-          text-transform: uppercase; }
+          text-transform: uppercase;
+          line-height: 2.7rem; }
       .contact-main__contact-alt__row .socials {
         display: flex;
         align-items: center; }
