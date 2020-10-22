@@ -122,7 +122,7 @@ body {
 
 .main-nav-inv {
   background: #000;
-  padding: 1rem; }
+  padding: 1.5rem 1rem; }
 
 body {
   background: #ffd71b; }
@@ -142,7 +142,7 @@ body {
 
 .contact-main {
   padding: 0 0 5rem 0;
-  z-index: 10;
+  z-index: 9;
   position: relative; }
   .contact-main__form-container {
     margin-top: -15rem;
