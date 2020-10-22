@@ -141,7 +141,7 @@ body {
     padding: 20rem 2rem 0rem 2rem; }
 
 .contact-main {
-  padding: 0 0 5rem 0;
+  padding: 0 0 0rem 0;
   z-index: 9;
   position: relative; }
   .contact-main__form-container {
@@ -172,7 +172,7 @@ body {
       font-size: 1.6rem;
       width: 100%; }
   .contact-main__contact-alt {
-    padding: 10rem 1rem; }
+    padding: 8rem 1rem 5rem 1rem; }
     .contact-main__contact-alt__row {
       padding: 0 0 5rem 0; }
       .contact-main__contact-alt__row:last-child {

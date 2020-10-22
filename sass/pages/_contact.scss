@@ -19,7 +19,7 @@ body {
 }
 
 .contact-main {
-  padding: 0 0 5rem 0;
+  padding: 0 0 0rem 0;
   z-index: 9;
   position: relative;
   &__form-container {
@@ -57,7 +57,7 @@ body {
     }
   }
   &__contact-alt {
-    padding: 10rem 1rem;
+    padding: 8rem 1rem 5rem 1rem;
     &__row {
       padding: 0 0 5rem 0;
       &:last-child {
