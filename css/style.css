@@ -129,7 +129,7 @@ body {
         display: inline-block;
         font-size: 1.6rem;
         text-transform: uppercase;
-        border-bottom: 1px solid #333; }
+        border-bottom: 1px solid #222; }
     .main-footer .upper .socials {
       display: flex;
       justify-content: space-between;
@@ -162,7 +162,7 @@ body {
     align-items: center;
     justify-content: space-between; }
   .main-nav__sm-scr-menu-icon-cont {
-    width: 3rem; }
+    width: 4rem; }
   .main-nav__sm-scr-menu-icon {
     width: 100%; }
   .main-nav__brand-logo-cont {
