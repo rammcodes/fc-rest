@@ -1,0 +1,17 @@
+/*
+$breakpoint argument choices
+- phone
+- tab-port
+- tab-land
+- desktop
+*/
+
+// Using em because of poor browser support for rem
+@mixin respond($breakpoint) {
+  @if $breakpoint == tab-port {
+    @media (min-width: 43.75em) {
+      // 700px
+      @content;
+    }
+  }
+}
