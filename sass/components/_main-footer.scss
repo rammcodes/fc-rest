@@ -60,7 +60,7 @@
 
 .main-footer {
   &__upper {
-    background: #222;
+    background: #000;
     padding: 4rem 0;
   }
   &__upper-content {
@@ -87,7 +87,6 @@
     display: flex;
     margin: auto;
     width: 100%;
-    background-color: red;
     max-width: 35rem;
     input {
       padding: 2rem;
