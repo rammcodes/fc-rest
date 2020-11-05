@@ -150,6 +150,10 @@ body {
       letter-spacing: 1px;
       text-transform: uppercase; }
 
+.map-section #map {
+  width: 100%;
+  height: 40rem; }
+
 .main-nav {
   position: fixed;
   top: 0;
