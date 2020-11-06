@@ -61,7 +61,7 @@
 .main-footer {
   &__upper {
     padding: 5rem 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
       url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
     background-size: cover;
     background-repeat: no-repeat;
@@ -115,5 +115,53 @@
   &__lower {
     min-height: 30rem;
     background: #000;
+  }
+  &__lower {
+    padding: 4rem 0;
+    background: #000;
+  }
+
+  &__links {
+    margin-bottom: 4rem;
+  }
+
+  &__link {
+    a {
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      color: rgb(221, 221, 221);
+      padding: 1.5rem 0;
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-family: 'Staatliches', cursive;
+    }
+  }
+  .socials {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 4rem auto;
+    max-width: 25rem;
+    .social-cont {
+      width: 2.5rem;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .site-info {
+    max-width: 40rem;
+    margin: auto;
+    span {
+      color: #fff;
+      font-size: 1.2rem;
+      max-width: 40rem;
+      display: block;
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+      letter-spacing: 2px;
+    }
   }
 }
