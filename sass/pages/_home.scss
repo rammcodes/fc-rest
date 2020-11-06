@@ -28,10 +28,10 @@
   }
 
   &__scroll-animation-cont {
-    animation: up-down 4s ease-out;
+   // animation: up-down 4s ease-out;
     animation-iteration-count: infinite;
     position: absolute;
-    left: 45%;
+    left: 50%;
     top: 93%;
     width: 4rem;
     transform: translate(-50%, -50%);

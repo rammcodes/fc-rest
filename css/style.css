@@ -40,7 +40,7 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%;
+  font-size: 72.5%;
   overflow-x: hidden; }
 
 body {
@@ -200,9 +200,13 @@ body {
     margin-bottom: 1.5rem;
     letter-spacing: 2px; }
 
-.map-section #map {
-  width: 100%;
+.map .map-cont {
   height: 40rem; }
+  .map .map-cont img {
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    object-position: center; }
 
 .main-nav {
   position: fixed;
@@ -337,10 +341,9 @@ body {
   .home-header--btn {
     animation: from-right 1s ease-out; }
   .home-header__scroll-animation-cont {
-    animation: up-down 4s ease-out;
     animation-iteration-count: infinite;
     position: absolute;
-    left: 45%;
+    left: 50%;
     top: 93%;
     width: 4rem;
     transform: translate(-50%, -50%); }
