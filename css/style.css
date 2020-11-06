@@ -138,7 +138,8 @@ body {
   max-width: 40rem;
   padding: 1rem;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  border: 1px solid #ffd71b; }
+  border: 1px solid #ffd71b;
+  background: #000; }
   .main-footer__news-ltr-form input {
     padding: 2rem;
     width: calc(100% - 8rem);
@@ -155,7 +156,7 @@ body {
 
 .main-footer__lower {
   min-height: 30rem;
-  background: #222; }
+  background: #000; }
 
 .map-section #map {
   width: 100%;
