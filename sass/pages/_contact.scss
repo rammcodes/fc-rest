@@ -42,11 +42,15 @@ body {
       input,
       textarea {
         padding: 1.5rem 1rem;
+        border: 1px solid #222;
         width: 100%;
-        border: none;
+        
         background: #222;
         font-size: 1.6rem;
         color: #eee;
+        &:focus {
+          border: 1px solid $clr-yellow;
+        }
       }
     }
     &--btn {

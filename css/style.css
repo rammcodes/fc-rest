@@ -200,13 +200,15 @@ body {
     margin-bottom: 1.5rem;
     letter-spacing: 2px; }
 
-.map .map-cont {
-  height: 40rem; }
-  .map .map-cont img {
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-    object-position: center; }
+.map {
+  background: #000; }
+  .map .map-cont {
+    height: 40rem; }
+    .map .map-cont img {
+      width: 100%;
+      object-fit: cover;
+      height: 100%;
+      object-position: center; }
 
 .main-nav {
   position: fixed;
@@ -269,12 +271,15 @@ body {
         font-size: 1.2rem; }
       .contact-main__form-field input,
       .contact-main__form-field textarea {
-        padding: 1.2rem 1rem;
+        padding: 1.5rem 1rem;
+        border: 1px solid #222;
         width: 100%;
-        border: none;
         background: #222;
         font-size: 1.6rem;
         color: #eee; }
+        .contact-main__form-field input:focus,
+        .contact-main__form-field textarea:focus {
+          border: 1px solid #ffd71b; }
     .contact-main__form--btn {
       margin-top: 1rem;
       padding: 1.2rem;
@@ -344,7 +349,7 @@ body {
     animation-iteration-count: infinite;
     position: absolute;
     left: 50%;
-    top: 93%;
+    top: 96%;
     width: 4rem;
     transform: translate(-50%, -50%); }
   .home-header__scroll-animation {
