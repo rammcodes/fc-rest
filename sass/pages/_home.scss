@@ -163,15 +163,18 @@
   background: linear-gradient(#222, black);
   background: #222;
   padding: 4rem 0;
+  &__testimonials-cont {
+  display: grid;
+  grid-template-columns: 30rem 30rem 30rem;
+  overflow-x: scroll;
+  }
   &__single-testimonial {
-    min-height: 40rem;
-    max-width: 90%;
-    margin: 0vh auto 0 auto;
+    margin: 0vh 2rem 0 auto;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url('https://images.unsplash.com/photo-1554679665-f5537f187268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    padding: 4rem 2rem;
+    padding: 3.5rem 2rem;
     background-size: cover;
     .quotes-icon-cont {
       width: 4rem;
@@ -189,7 +192,7 @@
     font-style: italic;
     max-width: 50rem;
     width: 90%;
-    margin: 0 auto 2rem auto;
+    margin: 0 auto 1.5rem auto;
   }
   h2 {
     color: #eee;
