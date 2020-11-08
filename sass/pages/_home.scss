@@ -28,14 +28,13 @@
   }
 
   &__scroll-animation-cont {
-   // animation: up-down 4s ease-out;
+    // animation: up-down 4s ease-out;
     animation-iteration-count: infinite;
     position: absolute;
     left: 50%;
     top: 96%;
     width: 4rem;
     transform: translate(-50%, -50%);
-    
   }
   &__scroll-animation {
     width: 100%;
@@ -158,4 +157,54 @@
     line-height: 2.5rem;
     font-weight: 400;
   }
+}
+
+.testimonial {
+  background: linear-gradient(#222, black);
+  background: #333;
+  padding: 4rem 0;
+  &__single-testimonial {
+    min-height: 40rem;
+    width: 90%;
+    margin: 0vh auto 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+      url('https://images.unsplash.com/photo-1554679665-f5537f187268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 4rem 2rem;
+    background-size: cover;
+    .quotes-icon-cont {
+      max-width: 3rem;
+      margin: 0 auto 1.5rem auto;
+      img {
+        width: 100%;
+      }
+    }
+  }
+  &__review {
+    color: rgb(199, 199, 199);
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+    max-width: 50rem;
+    width: 90%;
+    margin: 0 auto 1rem auto;
+  }
+  h2 {
+    color: #eee;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0rem;
+  }
+  .testimonial__prof {
+    color: rgb(199, 199, 199);
+    text-transform: uppercase;
+   text-align: center;  
+   font-size: 1.1rem;
+
+   letter-spacing: 2px;
+  }
+  
 }

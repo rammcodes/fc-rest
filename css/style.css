@@ -40,7 +40,7 @@
   box-sizing: inherit; }
 
 html {
-  font-size: 62.5%;
+  font-size: 72.5%;
   overflow-x: hidden; }
 
 body {
@@ -79,11 +79,6 @@ body {
 
 .text-primary {
   font-size: 1.7rem;
-  line-height: 2.5rem;
-  color: #eee; }
-
-.text-secondary {
-  font-size: 1.5rem;
   line-height: 2.5rem;
   color: #eee; }
 
@@ -448,3 +443,43 @@ body {
     color: #afafaf;
     line-height: 2.5rem;
     font-weight: 400; }
+
+.testimonial {
+  background: linear-gradient(#222, black);
+  background: #333;
+  padding: 4rem 0; }
+  .testimonial__single-testimonial {
+    min-height: 40rem;
+    width: 90%;
+    margin: 0vh auto 0 auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("https://images.unsplash.com/photo-1554679665-f5537f187268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 4rem 2rem;
+    background-size: cover; }
+    .testimonial__single-testimonial .quotes-icon-cont {
+      max-width: 3rem;
+      margin: 0 auto 1.5rem auto; }
+      .testimonial__single-testimonial .quotes-icon-cont img {
+        width: 100%; }
+  .testimonial__review {
+    color: #c7c7c7;
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+    max-width: 50rem;
+    width: 90%;
+    margin: 0 auto 1rem auto; }
+  .testimonial h2 {
+    color: #eee;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0rem; }
+  .testimonial .testimonial__prof {
+    color: #c7c7c7;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1.1rem;
+    letter-spacing: 2px; }
