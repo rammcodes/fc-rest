@@ -82,6 +82,11 @@ body {
   line-height: 2.5rem;
   color: #eee; }
 
+.text-secondary {
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+  color: #eee; }
+
 .main-container {
   max-width: 114rem;
   width: 95%;
