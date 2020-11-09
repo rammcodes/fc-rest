@@ -160,22 +160,49 @@
 }
 
 .testimonial {
-  background: linear-gradient(#222, black);
-  background: #222;
-  padding: 4rem 0;
+  padding: 5rem 0;
+  background: linear-gradient(93deg, #333 35%, #222 63%);
+  position: relative;
   &__testimonials-cont {
-  display: grid;
-  grid-template-columns: 30rem 30rem 30rem;
-  overflow-x: scroll;
+  //   // position: absolute;
+  //  // background: red;
+  // //  max-width: 500px;
+  // //  width: 95%;
+  //   top: 20%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+//   display: flex;
+//   align-items: center;
+//  justify-content: center;
+//  justify-content: space-between;
   }
   &__single-testimonial {
-    margin: 0vh 2rem 0 auto;
+    // position: absolute;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 42rem;
+    margin-bottom: 2rem;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url('https://images.unsplash.com/photo-1554679665-f5537f187268?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80');
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    padding: 3.5rem 2rem;
     background-size: cover;
+    top: 1.5rem;
+    &:nth-child(1) {
+      z-index: 5;
+      width: 95%;
+    }
+    &:nth-child(2) {
+      z-index: 8;
+      min-height: 42rem;
+      width: 95%;
+    }
+    &:nth-child(3) {
+      z-index: 5;
+      width: 95%;
+    }
     .quotes-icon-cont {
       width: 4rem;
       margin: 0 auto 2.5rem auto;
@@ -199,15 +226,13 @@
     font-size: 1.8rem;
     text-transform: uppercase;
     text-align: center;
-
   }
   .testimonial__prof {
     color: rgb(199, 199, 199);
     text-transform: uppercase;
-   text-align: center;  
-   font-size: 1.4rem;
+    text-align: center;
+    font-size: 1rem;
 
-   letter-spacing: 2px;
+    letter-spacing: 2px;
   }
-  
 }
