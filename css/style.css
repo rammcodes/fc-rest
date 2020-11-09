@@ -452,7 +452,10 @@ body {
 .testimonial {
   padding: 5rem 0;
   background: linear-gradient(93deg, #333 35%, #222 63%);
-  position: relative; }
+  position: relative;
+  text-align: center; }
+  .testimonial__testimonials-cont {
+    margin: 4rem 0; }
   .testimonial__single-testimonial {
     margin: auto;
     display: flex;
@@ -489,7 +492,7 @@ body {
     max-width: 50rem;
     width: 90%;
     margin: 0 auto 1.5rem auto; }
-  .testimonial h2 {
+  .testimonial h3 {
     color: #eee;
     font-size: 1.8rem;
     text-transform: uppercase;

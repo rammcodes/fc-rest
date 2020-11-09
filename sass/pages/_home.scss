@@ -163,21 +163,12 @@
   padding: 5rem 0;
   background: linear-gradient(93deg, #333 35%, #222 63%);
   position: relative;
+  text-align: center;
   &__testimonials-cont {
-  //   // position: absolute;
-  //  // background: red;
-  // //  max-width: 500px;
-  // //  width: 95%;
-  //   top: 20%;
-  //   left: 50%;
-  //   transform: translate(-50%, -50%);
-//   display: flex;
-//   align-items: center;
-//  justify-content: center;
-//  justify-content: space-between;
+    margin: 4rem 0;
   }
+
   &__single-testimonial {
-    // position: absolute;
     margin: auto;
     display: flex;
     flex-direction: column;
@@ -221,7 +212,7 @@
     width: 90%;
     margin: 0 auto 1.5rem auto;
   }
-  h2 {
+  h3 {
     color: #eee;
     font-size: 1.8rem;
     text-transform: uppercase;
