@@ -6,6 +6,15 @@
   background-position: center;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%);
+
+  &--heading-secondary {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
 }
 
 .menu-section {
