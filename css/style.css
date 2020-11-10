@@ -503,3 +503,48 @@ body {
     text-align: center;
     font-size: 1rem;
     letter-spacing: 2px; }
+
+.menu-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1511017049469-e0d1ba0219a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  min-height: 80vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%); }
+
+.menu-section .menu-cat-list {
+  width: 95%;
+  margin: auto;
+  transform: translateY(-10rem); }
+  .menu-section .menu-cat-list .menu {
+    animation: from-bottom 0.7s ease-out;
+    background: #000;
+    padding: 3rem 2.5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    margin-bottom: 3rem; }
+    .menu-section .menu-cat-list .menu .category-items {
+      margin-top: 1rem; }
+      .menu-section .menu-cat-list .menu .category-items .category-item {
+        padding: 2rem 0;
+        border-bottom: 1px dashed #eee; }
+        .menu-section .menu-cat-list .menu .category-items .category-item:last-child {
+          border-bottom: none; }
+        .menu-section .menu-cat-list .menu .category-items .category-item .upper {
+          display: flex;
+          color: #eee;
+          justify-content: space-between;
+          margin-bottom: 1rem; }
+          .menu-section .menu-cat-list .menu .category-items .category-item .upper h5 {
+            font-size: 2rem;
+            letter-spacing: 1px;
+            text-transform: uppercase; }
+          .menu-section .menu-cat-list .menu .category-items .category-item .upper .item-price {
+            font-size: 1.5rem;
+            font-weight: bold; }
+        .menu-section .menu-cat-list .menu .category-items .category-item .bottom .item-info {
+          color: #c8c8c8;
+          line-height: 2rem;
+          font-size: 1.2rem;
+          width: 90%;
+          font-weight: 500;
+          letter-spacing: 1px; }
