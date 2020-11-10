@@ -9,17 +9,26 @@
 }
 
 .menu-section {
-//  min-height: 500vh;
   .menu-cat-list {
     width: 95%;
     margin: auto;
-    transform: translateY(-10rem);
+    &:first-child {
+        transform: translateY(-10rem);
+    }
+    
+    &:last-child {
+        transform: translateY(-7rem);
+    }
+ 
     .menu {
       animation: from-bottom 0.7s ease-out;
       background: #000;
       padding: 3rem 2.5rem;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
       margin-bottom: 3rem;
+      &:last-child {
+          margin-bottom: 0rem;
+      }
       .category-items {
          margin-top: 1rem;
         .category-item {

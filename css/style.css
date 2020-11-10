@@ -514,14 +514,19 @@ body {
 
 .menu-section .menu-cat-list {
   width: 95%;
-  margin: auto;
-  transform: translateY(-10rem); }
+  margin: auto; }
+  .menu-section .menu-cat-list:first-child {
+    transform: translateY(-10rem); }
+  .menu-section .menu-cat-list:last-child {
+    transform: translateY(-7rem); }
   .menu-section .menu-cat-list .menu {
     animation: from-bottom 0.7s ease-out;
     background: #000;
     padding: 3rem 2.5rem;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     margin-bottom: 3rem; }
+    .menu-section .menu-cat-list .menu:last-child {
+      margin-bottom: 0rem; }
     .menu-section .menu-cat-list .menu .category-items {
       margin-top: 1rem; }
       .menu-section .menu-cat-list .menu .category-items .category-item {
