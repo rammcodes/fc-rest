@@ -531,7 +531,7 @@ body {
       margin-top: 1rem; }
       .menu-section .menu-cat-list .menu .category-items .category-item {
         padding: 2rem 0;
-        border-bottom: 1px dashed #eee; }
+        border-bottom: 1px dashed grey; }
         .menu-section .menu-cat-list .menu .category-items .category-item:last-child {
           border-bottom: none;
           padding-bottom: 0; }
@@ -541,12 +541,13 @@ body {
           justify-content: space-between;
           margin-bottom: 1rem; }
           .menu-section .menu-cat-list .menu .category-items .category-item .upper h5 {
-            font-size: 2rem;
+            font-size: 1.7rem;
             letter-spacing: 1px;
             text-transform: uppercase; }
           .menu-section .menu-cat-list .menu .category-items .category-item .upper .item-price {
             font-size: 1.5rem;
-            font-weight: bold; }
+            font-weight: bold;
+            letter-spacing: 1px; }
         .menu-section .menu-cat-list .menu .category-items .category-item .bottom .item-info {
           color: #c8c8c8;
           line-height: 2rem;

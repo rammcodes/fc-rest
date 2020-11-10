@@ -37,20 +37,21 @@
             padding-bottom: 0;
           }
           padding: 2rem 0;
-          border-bottom: 1px dashed #eee;
+          border-bottom: 1px dashed grey;
           .upper {
             display: flex;
             color: #eee;
             justify-content: space-between;
             margin-bottom: 1rem;
             h5 {
-              font-size: 2rem;
+              font-size: 1.7rem;
               letter-spacing: 1px;
               text-transform: uppercase;
             }
             .item-price {
               font-size: 1.5rem;
               font-weight: bold;
+              letter-spacing: 1px;
             }
           }
           .bottom {
