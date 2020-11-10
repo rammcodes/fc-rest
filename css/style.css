@@ -533,7 +533,8 @@ body {
         padding: 2rem 0;
         border-bottom: 1px dashed #eee; }
         .menu-section .menu-cat-list .menu .category-items .category-item:last-child {
-          border-bottom: none; }
+          border-bottom: none;
+          padding-bottom: 0; }
         .menu-section .menu-cat-list .menu .category-items .category-item .upper {
           display: flex;
           color: #eee;
