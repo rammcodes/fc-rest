@@ -214,6 +214,7 @@ body {
     background: #000;
     margin: auto;
     padding: 6rem 4rem;
+    border-radius: 5px;
     z-index: 2; }
     .map .info .address {
       margin-top: 3rem;
