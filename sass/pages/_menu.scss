@@ -18,6 +18,9 @@
 }
 
 .menu-section {
+  &--heading-secondary {
+    color: $clr-yellow;
+  }
   .menu-cat-list {
     width: 95%;
     margin: auto;
