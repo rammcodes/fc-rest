@@ -1,11 +1,13 @@
 .main-footer {
   &__upper {
     padding: 5rem 0;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
       url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
     background-size: cover;
+   // background: linear-gradient(93deg, #222 35%, #111 63%);
     background-repeat: no-repeat;
     background-position: center;
+    
   }
   &__upper-content {
     width: 90%;
@@ -32,9 +34,6 @@
     width: 100%;
     max-width: 40rem;
     padding: 1rem;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-    border: 1px solid $clr-yellow;
-    background: #000;
 
     input {
       padding: 2rem;
@@ -46,11 +45,16 @@
       display: block;
       width: 100%;
       background: #000;
+      border: 1px solid #eee;
       margin-bottom: 1rem;
     }
     .btn--news-ltr-form {
       width: 100%;
       display: block;
+      background: #000;
+      border: 1px solid #eee;
+      color: #eee;
+
     }
   }
   &__lower {
