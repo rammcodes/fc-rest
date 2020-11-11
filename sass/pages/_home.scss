@@ -26,19 +26,6 @@
   &--btn {
     animation: from-right 1s ease-out;
   }
-
-  &__scroll-animation-cont {
-    // animation: up-down 4s ease-out;
-    animation-iteration-count: infinite;
-    position: absolute;
-    left: 50%;
-    top: 96%;
-    width: 4rem;
-    transform: translate(-50%, -50%);
-  }
-  &__scroll-animation {
-    width: 100%;
-  }
 }
 
 .greetings {
