@@ -147,14 +147,14 @@ body {
     display: block;
     width: 100%;
     background: #000;
-    border: 1px solid #eee;
+    border: 1px solid #c8c8c8;
     margin-bottom: 1rem; }
   .main-footer__news-ltr-form .btn--news-ltr-form {
     width: 100%;
     display: block;
     background: #000;
-    border: 1px solid #eee;
-    color: #eee; }
+    border: 1px solid #c8c8c8;
+    color: #c8c8c8; }
 
 .main-footer__lower {
   min-height: 30rem;
