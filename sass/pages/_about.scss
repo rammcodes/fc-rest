@@ -1,8 +1,11 @@
 .about-header {
-  background: #000;
   position: relative;
-  background: #000;
   min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
+  url('https://images.unsplash.com/photo-1511017049469-e0d1ba0219a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
   &--heading-primary {
     color: #eee;
     text-align: center;
@@ -36,9 +39,8 @@
 }
 
 .about-info {
-  padding: 5rem 3rem;
-  background: #000;
-  border-bottom: 1px dashed #eee;
+  padding: 5rem 2rem;
+  background: #111;
   &--heading-secondary {
     margin-bottom: 3rem;
     letter-spacing: 3px;
@@ -49,7 +51,7 @@
 .about-main {
   background: #000;
   &__row {
-    padding: 0rem 3rem 8rem 3rem;
+    padding: 0rem 2rem 8rem 2rem;
     &:first-child {
       padding-top: 8rem;
     }
