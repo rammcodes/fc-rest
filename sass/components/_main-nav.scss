@@ -38,7 +38,6 @@
 //   }
 // }
 
-
 .main-nav {
   position: fixed;
   top: 0;
@@ -54,6 +53,9 @@
   }
   &__sm-scr-menu-icon-cont {
     width: 3.5rem;
+    @include respond(tab-port) {
+      width: 4rem;
+    }
   }
 
   &__sm-scr-menu-icon {
@@ -61,6 +63,9 @@
   }
   &__brand-logo-cont {
     width: 4rem;
+    @include respond(tab-port) {
+      width: 5rem;
+    }
   }
   &__brand-logo {
     width: 100%;
@@ -71,4 +76,3 @@
   background: #000;
   padding: 1.5rem 1rem;
 }
-

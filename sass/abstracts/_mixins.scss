@@ -9,8 +9,26 @@ $breakpoint argument choices
 // Using em because of poor browser support for rem
 @mixin respond($breakpoint) {
   @if $breakpoint == tab-port {
-    @media (min-width: 43.75em) {
-      // 700px  
+    @media (min-width: 40.62em) {
+      // 650px
+      @content;
+    }
+  }
+  @if $breakpoint == tab-land {
+    @media (min-width: 56.25em) {
+      // 900px
+      @content;
+    }
+  }
+  @if $breakpoint == small-desk {
+    @media (min-width: 75em) {
+      // 1200px
+      @content;
+    }
+  }
+  @if $breakpoint == big-desk {
+    @media (min-width: 112.5em) {
+      // 1800px
       @content;
     }
   }

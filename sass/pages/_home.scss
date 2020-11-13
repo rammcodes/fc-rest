@@ -31,8 +31,25 @@
 .greetings {
   padding: 4rem 0;
   background: #000;
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
+  @include respond(tab-land) {
+    padding: 10rem 0;
+  }
+  &--main-container {
+    @include respond(tab-land) {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
   &__msg {
     padding: 0rem 2rem 2rem 2rem;
+    max-width: 70rem;
+    @include respond(tab-land) {
+      width: 60%;
+    }
   }
 
   &--heading-secondary {
@@ -44,12 +61,19 @@
 
   &__visual {
     padding: 2rem 2rem 0 2rem;
+    @include respond(tab-land) {
+      width: 40%;
+    }
   }
 
   &__visual-img-cont {
     width: 100%;
     height: 40rem;
     overflow: hidden;
+    @include respond(tab-land) {
+      height: 50rem;
+      border-radius: 5px;
+    }
   }
   &__visual-img {
     width: 100%;
@@ -62,6 +86,9 @@
 .features {
   background-color: orange;
   z-index: 2;
+  @include respond(tab-land) {
+    display: flex;
+  }
   &__feature {
     width: 100%;
     height: 60rem;
@@ -99,6 +126,9 @@
   &--heading-secondary {
     margin-bottom: 2rem;
     font-size: 4rem;
+    @include respond(tab-land) {
+      margin-bottom: 2rem;
+    }
   }
   &--text-secondary {
     margin-bottom: 3rem;
@@ -106,25 +136,44 @@
     line-height: 2.8rem;
     margin: 0 auto 3rem auto;
     color: #fff;
+    @include respond(tab-land) {
+      color: #eee;
+      margin-bottom: 3rem;
+    }
   }
 }
 
 .menu-features {
-  padding: 4rem 1rem;
+  padding: 4rem 0rem;
   text-align: center;
   background: #000;
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
   &__row {
     margin-top: 4rem;
     text-align: left;
     margin-bottom: 4rem;
+    @include respond(tab-land) {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 6rem;
+    }
   }
   &__feature {
     padding: 5rem 2rem;
     background: #222;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     margin-bottom: 2.5rem;
+    @include respond(tab-land) {
+      width: 31%;
+      margin-bottom: 0;
+    }
     &:last-child {
       margin-bottom: 0;
+      @include respond(tab-land) {
+        margin-bottom: 0;
+      }
     }
   }
   &__icon-cont {
@@ -148,12 +197,19 @@
 }
 
 .testimonial {
-  padding: 5rem 0;
+  padding: 4rem 0;
   background: linear-gradient(93deg, #333 35%, #222 63%);
   position: relative;
   text-align: center;
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
   &__testimonials-cont {
     margin: 4rem 0;
+    @include respond(tab-land) {
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   &__single-testimonial {
@@ -169,18 +225,30 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     background-size: cover;
     top: 1.5rem;
+    @include respond(tab-land) {
+      width: 31%;
+    }
     &:nth-child(1) {
       z-index: 5;
       width: 95%;
+      @include respond(tab-land) {
+        width: 31%;
+      }
     }
     &:nth-child(2) {
       z-index: 8;
       min-height: 42rem;
       width: 95%;
+      @include respond(tab-land) {
+        width: 31%;
+      }
     }
     &:nth-child(3) {
       z-index: 5;
       width: 95%;
+      @include respond(tab-land) {
+        width: 31%;
+      }
     }
     .quotes-icon-cont {
       width: 4rem;
@@ -197,7 +265,7 @@
     text-align: center;
     font-style: italic;
     max-width: 50rem;
-    width: 90%;
+    width: 80%;
     margin: 0 auto 1.5rem auto;
   }
   h3 {

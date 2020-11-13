@@ -88,6 +88,10 @@
   display: block;
   width: 25px;
   height: 40px;
+  @include respond(tab-land) {
+    width: 30px;
+    height: 50px;
+  }
   margin: 0 auto 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
