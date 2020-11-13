@@ -738,7 +738,9 @@ body {
 .about-main {
   background: #000; }
   .about-main__row {
-    padding: 6rem 3rem; }
+    padding: 0rem 3rem 8rem 3rem; }
+    .about-main__row:first-child {
+      padding-top: 8rem; }
   .about-main__img-cont {
     width: 100%;
     -webkit-box-shadow: -8px -8px 0px 2px #ffd71b;
