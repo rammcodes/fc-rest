@@ -23,7 +23,7 @@
     transform: translateX(-50%);
     overflow: hidden;
     background-image: url('https://images.unsplash.com/photo-1511017049469-e0d1ba0219a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
-    height: calc(100vh - 25rem);
+    height: calc(100vh - 30rem);
     background-position: center;
     background-repeat: no-repeat;
     img {
@@ -36,7 +36,7 @@
 }
 
 .about-info {
-  padding: 10rem 3rem;
+  padding: 5rem 3rem;
   background: #000;
   &--heading-secondary {
     margin-bottom: 3rem;
