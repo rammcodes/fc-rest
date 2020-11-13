@@ -15,8 +15,8 @@ body {
 .heading-secondary {
   font-size: 4rem;
   letter-spacing: 2px;
-  color: #eee;
   line-height: 5rem;
+  color: #eee;
   &__sm {
     color: $clr-yellow;
     display: inline-block;
@@ -26,8 +26,8 @@ body {
 
 .text-primary {
   font-size: 1.7rem;
-  line-height: 2.5rem;
-  color: #eee;
+  line-height: 2.8rem;
+  color: rgb(230, 230, 230);
 }
 
 .text-secondary {
