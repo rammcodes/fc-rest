@@ -728,8 +728,45 @@ body {
 
 .about-info {
   padding: 5rem 3rem;
-  background: #000; }
+  background: #000;
+  border-bottom: 1px dashed #eee; }
   .about-info--heading-secondary {
     margin-bottom: 3rem;
     letter-spacing: 3px;
     color: #eee; }
+
+.about-main {
+  background: #000; }
+  .about-main__row {
+    padding: 6rem 3rem; }
+  .about-main__img-cont {
+    width: 100%;
+    -webkit-box-shadow: -8px -8px 0px 2px #ffd71b;
+    -moz-box-shadow: -8px -8px 0px 2px #ffd71b;
+    box-shadow: -8px -8px 0px 2px #ffd71b;
+    margin-bottom: 4rem; }
+    .about-main__img-cont img {
+      width: 100%; }
+  .about-main__details {
+    color: #eee; }
+    .about-main__details .short-heading {
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      letter-spacing: 3px;
+      margin-bottom: 1rem; }
+    .about-main__details .yellow-line {
+      height: 1px;
+      width: 5rem;
+      border: 0;
+      background: #ffd71b;
+      margin-bottom: 2rem; }
+  .about-main--heading {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 2rem; }
+  .about-main--text-secondary {
+    color: #c8c8c8; }
+
+.about--map {
+  background: #000; }
