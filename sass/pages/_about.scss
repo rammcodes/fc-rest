@@ -2,10 +2,10 @@
   position: relative;
   min-height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-  url('https://images.unsplash.com/photo-1511017049469-e0d1ba0219a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+    url('https://images.unsplash.com/photo-1511017049469-e0d1ba0219a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   &--heading-primary {
     color: #eee;
     text-align: center;
@@ -15,7 +15,9 @@ background-position: center;
     transform: translate(-50%, -50%);
     z-index: 1;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 1);
-    font-size: 5.5rem;
+    @include respond(tab-land) {
+      top: 35rem;
+    }
   }
   .img-cont {
     width: 97%;
@@ -29,6 +31,10 @@ background-position: center;
     height: calc(100vh - 30rem);
     background-position: center;
     background-repeat: no-repeat;
+    @include respond(tab-land) {
+      top: 35rem;
+      height: calc(100vh - 40rem);
+    }
     img {
       display: none;
       width: 100%;
@@ -52,6 +58,17 @@ background-position: center;
   background: #000;
   &__row {
     padding: 0rem 2rem 8rem 2rem;
+    @include respond(tab-port) {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      &:nth-child(2),
+      &:nth-child(4) {
+        .about-main__img-cont {
+          order: 5;
+        }
+      }
+    }
     &:first-child {
       padding-top: 8rem;
     }
@@ -62,12 +79,25 @@ background-position: center;
     -moz-box-shadow: -8px -8px 0px 2px $clr-yellow;
     box-shadow: -8px -8px 0px 2px $clr-yellow;
     margin-bottom: 4rem;
+    @include respond(tab-port) {
+      margin-bottom: 0;
+      width: 50%;
+    }
+    @include respond(tab-land) {
+      width: 40%;
+    }
     img {
       width: 100%;
     }
   }
   &__details {
     color: #eee;
+    @include respond(tab-port) {
+      width: 46%;
+    }
+    @include respond(tab-land) {
+      width: 55%;
+    }
     .short-heading {
       text-transform: uppercase;
       font-size: 1.2rem;
@@ -89,10 +119,9 @@ background-position: center;
     margin-bottom: 2rem;
   }
   &--text-secondary {
-    color: rgb(200,200,200);
+    color: rgb(200, 200, 200);
   }
 }
-
 
 .about--map {
   background: #000;
