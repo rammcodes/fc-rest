@@ -81,6 +81,14 @@
     object-fit: cover;
     object-position: center;
   }
+  &--btn {
+    display: none;
+    @include respond(tab-land) {
+      text-align: center;
+      margin-top: 4rem;
+      display: inline-block;
+    }
+  }
 }
 
 .features {

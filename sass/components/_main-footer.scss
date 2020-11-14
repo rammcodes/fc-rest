@@ -28,6 +28,10 @@
     letter-spacing: 2px;
     font-size: 1.6rem;
     margin-bottom: 3rem;
+    @include respond(small-desk) {
+      font-size: 2rem;
+      letter-spacing: 3px;
+    }
   }
   &__news-ltr-form {
     margin: auto;

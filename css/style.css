@@ -159,6 +159,10 @@ body {
   letter-spacing: 2px;
   font-size: 1.6rem;
   margin-bottom: 3rem; }
+  @media (min-width: 75em) {
+    .main-footer__news-ltr-msg {
+      font-size: 2rem;
+      letter-spacing: 3px; } }
 
 .main-footer__news-ltr-form {
   margin: auto;
@@ -562,6 +566,13 @@ body {
     height: 100%;
     object-fit: cover;
     object-position: center; }
+  .greetings--btn {
+    display: none; }
+    @media (min-width: 56.25em) {
+      .greetings--btn {
+        text-align: center;
+        margin-top: 4rem;
+        display: inline-block; } }
 
 .features {
   background-color: orange;
