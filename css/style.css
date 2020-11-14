@@ -623,7 +623,7 @@ body {
   .features--text-secondary {
     margin-bottom: 3rem;
     width: 80%;
-    line-height: 2.8rem;
+    line-height: 3rem;
     margin: 0 auto 3rem auto;
     color: #fff; }
     @media (min-width: 56.25em) {
@@ -755,12 +755,12 @@ body {
 
 .menu-header {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://images.unsplash.com/photo-1511017049469-e0d1ba0219a6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-  min-height: 60rem;
+  min-height: 70rem;
   background-size: cover;
   background-position: center;
   position: relative;
   clip-path: polygon(0 0, 100% 0, 100% 75%, 0% 100%); }
-  .menu-header--heading-secondary {
+  .menu-header--heading-primary {
     position: absolute;
     width: 100%;
     text-align: center;
@@ -771,9 +771,17 @@ body {
 .menu-section--heading-secondary {
   color: #ffd71b; }
 
+@media (min-width: 56.25em) {
+  .menu-section--main-container {
+    display: flex;
+    justify-content: space-between; } }
+
 .menu-section .menu-cat-list {
   width: 95%;
   margin: auto; }
+  @media (min-width: 56.25em) {
+    .menu-section .menu-cat-list {
+      width: 48%; } }
   .menu-section .menu-cat-list:first-child {
     transform: translateY(-10rem); }
   .menu-section .menu-cat-list:last-child {
