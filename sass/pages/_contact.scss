@@ -12,10 +12,6 @@
   min-height: 90vh;
   z-index: 1;
   position: relative;
-  // &--heading-secondary {
-  //   display: inline-block;
-  //   padding: 20rem 2rem 0rem 2rem;
-  // }
   &--heading-primary {
     position: absolute;
     width: 100%;
@@ -28,11 +24,22 @@
 
 .contact-main {
   padding: 0 0 0rem 0;
+  @include respond(tab-land) {
+   padding-bottom: 12rem;   
+  }
   z-index: 9;
   position: relative;
+  &--main-container {
+    @include respond(tab-land) {
+      display: flex;
+    }
+  }
   &__form-container {
     margin-top: -15rem;
     animation: from-bottom 0.7s ease-out;
+    @include respond(tab-land) {
+     width: 50%; 
+    }
   }
 
   &__form {
@@ -71,6 +78,10 @@
   }
   &__contact-alt {
     padding: 8rem 1rem 5rem 1rem;
+    @include respond(tab-land) {
+     padding: 0 0 0 5rem; 
+     margin-top: -5rem;
+    }
     &__row {
       padding: 0 0 5rem 0;
       &:last-child {

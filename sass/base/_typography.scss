@@ -10,6 +10,11 @@ body {
   font-size: 5rem;
   letter-spacing: 0.4rem;
   color: #eee;
+  &__sm {
+    color: $clr-yellow;
+    display: inline-block;
+    font-size: 2.5rem;
+  }
   @include respond(tab-port) {
     font-size: 6rem;
   }
