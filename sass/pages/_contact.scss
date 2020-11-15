@@ -27,6 +27,9 @@
     &__sm {
       font-size: 1.7rem;
       letter-spacing: 3px;
+      @include respond(tab-port) {
+        font-size: 2rem;
+      }
     }
   }
 
