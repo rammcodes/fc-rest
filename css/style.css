@@ -435,12 +435,12 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     letter-spacing: 4px;
-    font-size: 5rem; }
+    font-size: 4rem; }
     @media (min-width: 40.62em) {
       .contact-header--heading-primary {
         font-size: 7rem; } }
     .contact-header--heading-primary__sm {
-      font-size: 2rem;
+      font-size: 1.7rem;
       letter-spacing: 3px; }
 
 .contact-main {
