@@ -47,10 +47,14 @@
 .about-info {
   padding: 5rem 2rem;
   background: #111;
+ // text-align: center;
   &--heading-secondary {
     margin-bottom: 3rem;
     letter-spacing: 3px;
     color: #eee;
+  }
+  &--text-secondary {
+    max-width: 800px;
   }
 }
 
