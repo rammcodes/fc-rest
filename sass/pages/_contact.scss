@@ -20,16 +20,13 @@
     left: 50%;
     transform: translate(-50%, -50%);
     letter-spacing: 4px;
-    font-size: 4rem;
+    font-size: 5rem;
     @include respond(tab-port) {
       font-size: 7rem;
     }
     &__sm {
-      font-size: 1.7rem;
+      font-size: 2rem;
       letter-spacing: 3px;
-      @include respond(tab-port) {
-        font-size: 2rem;
-      }
     }
   }
 
