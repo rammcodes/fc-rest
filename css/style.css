@@ -302,7 +302,8 @@ body {
     align-items: center;
     justify-content: space-between; }
   .main-nav__sm-scr-menu-icon-cont {
-    width: 4rem; }
+    width: 4rem;
+    cursor: pointer; }
     @media (min-width: 40.62em) {
       .main-nav__sm-scr-menu-icon-cont {
         width: 5rem; } }
@@ -331,6 +332,7 @@ body {
   color: #eee; }
   .fl-scr-menu .icon-cont {
     width: 4rem;
+    cursor: pointer;
     margin-left: auto; }
     @media (min-width: 40.62em) {
       .fl-scr-menu .icon-cont {

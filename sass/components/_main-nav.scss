@@ -53,6 +53,7 @@
   }
   &__sm-scr-menu-icon-cont {
     width: 4rem;
+    cursor: pointer;
     @include respond(tab-port) {
       width: 5rem;
     }
@@ -88,6 +89,7 @@
   color: #eee;
   .icon-cont {
     width: 4rem;
+    cursor: pointer;
     @include respond(tab-port) {
       width: 5rem;
     }
