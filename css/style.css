@@ -64,7 +64,8 @@ html {
 
 body {
   box-sizing: border-box;
-  background: linear-gradient(93deg, #333 35%, #222 63%); }
+  background: linear-gradient(93deg, #333 35%, #222 63%);
+  overflow-x: hidden; }
 
 a {
   text-decoration: none; }

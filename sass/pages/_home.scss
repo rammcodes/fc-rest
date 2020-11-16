@@ -54,6 +54,7 @@
   &__msg {
     padding: 0rem 2rem 2rem 2rem;
     max-width: 70rem;
+    //animation: from-left 1s ease-out;
     @include respond(tab-land) {
       width: 60%;
     }
@@ -68,6 +69,7 @@
 
   &__visual {
     padding: 2rem 2rem 0 2rem;
+   // animation: from-right 1s ease-out;
     @include respond(tab-land) {
       width: 40%;
     }
