@@ -148,9 +148,10 @@
   }
   &--text-secondary {
     width: 90%;
-    line-height: 3.3rem;
+    line-height: 3rem;
     margin: 0 auto 5rem auto;
-    color: rgb(210, 210, 210);
+    color: rgb(200, 200, 200);
+    max-width: 25rem;
   }
 }
 
