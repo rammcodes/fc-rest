@@ -693,16 +693,14 @@ body {
     width: 80%;
     text-align: center; }
   .features--heading-secondary {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     font-size: 4rem; }
-    @media (min-width: 56.25em) {
-      .features--heading-secondary {
-        margin-bottom: 4rem; } }
   .features--text-secondary {
     width: 90%;
-    line-height: 3.3rem;
-    margin: 0 auto 5rem auto;
-    color: #c8c8c8; }
+    line-height: 3rem;
+    margin: 0 auto 4rem auto;
+    color: #c8c8c8;
+    max-width: 25rem; }
 
 .menu-features {
   padding: 4rem 0rem;

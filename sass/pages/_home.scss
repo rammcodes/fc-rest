@@ -140,16 +140,13 @@
     text-align: center;
   }
   &--heading-secondary {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     font-size: 4rem;
-    @include respond(tab-land) {
-      margin-bottom: 4rem;
-    }
   }
   &--text-secondary {
     width: 90%;
     line-height: 3rem;
-    margin: 0 auto 5rem auto;
+    margin: 0 auto 4rem auto;
     color: rgb(200, 200, 200);
     max-width: 25rem;
   }
