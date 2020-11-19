@@ -256,6 +256,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     width: 90%;
     background: #000;
+    background: linear-gradient(#222, #000);
     margin: auto;
     padding: 6rem 4rem;
     border-radius: 5px;
@@ -833,10 +834,10 @@ body {
 .gallery {
   background: #000;
   text-align: center;
-  padding: 4rem 0; }
+  padding: 4rem 0 6rem 0; }
   @media (min-width: 40.62em) {
     .gallery {
-      padding: 8rem 0; } }
+      padding: 8rem 0 9rem 0; } }
   .gallery--main-container .images-cont {
     margin: 4rem 0 0 0;
     display: grid;
