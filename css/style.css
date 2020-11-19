@@ -693,12 +693,11 @@ body {
     width: 80%;
     text-align: center; }
   .features--heading-secondary {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-size: 4rem; }
   .features--text-secondary {
     width: 90%;
-    line-height: 3rem;
-    margin: 0 auto 4rem auto;
+    margin: 0 auto 3rem auto;
     color: #c8c8c8;
     max-width: 25rem; }
 
