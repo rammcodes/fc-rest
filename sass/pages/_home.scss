@@ -112,6 +112,9 @@
     overflow: hidden;
     position: relative;
     z-index: 2;
+    @include respond(tab-land) {
+      width: 33.33333%;
+    }
     &::after {
       content: '';
       position: absolute;
@@ -121,6 +124,9 @@
       left: 0;
       background: rgba(0, 0, 0, 0.7);
       z-index: 1;
+      -webkit-box-shadow: inset 0px 0px 50px 0px rgb(0, 0, 0);
+      -moz-box-shadow: inset 0px 0px 50px 0px rgb(0, 0, 0);
+      box-shadow: inset 0px 0px 50px 0px rgb(0, 0, 0);
     }
   }
   &__feature-img {
@@ -145,7 +151,7 @@
   }
   &--text-secondary {
     width: 90%;
-   // line-height: 3rem;
+    // line-height: 3rem;
     margin: 0 auto 3rem auto;
     color: rgb(200, 200, 200);
     max-width: 25rem;
@@ -295,4 +301,89 @@
 
 .home--map {
   background: linear-gradient(93deg, #333 35%, #222 63%);
+  background: #000;
+}
+
+.gallery {
+  background: #000;
+  text-align: center;
+  padding: 4rem 0;
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
+  &--main-container {
+    .images-cont {
+      .i1 {
+        grid-area: i1;
+      }
+      .i2 {
+        grid-area: i2;
+      }
+      .i3 {
+        grid-area: i3;
+      }
+      .i4 {
+        grid-area: i4;
+      }
+      .i5 {
+        grid-area: i5;
+      }
+      .i6 {
+        grid-area: i6;
+      }
+      .i7 {
+        grid-area: i7;
+      }
+      .i8 {
+        grid-area: i8;
+      }
+      .i9 {
+        grid-area: i9;
+      }
+      .i10 {
+        grid-area: i10;
+      }
+      .i11 {
+        grid-area: i11;
+      }
+      margin: 4rem 0 0 0;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 1rem;
+      grid-template-rows: 10rem 10rem 15rem 10rem 10rem 15rem 10rem 10rem;
+      grid-template-areas:
+        'i1 i1'
+        'i1 i1'
+        'i2 i3'
+        'i4 i4'
+        'i4 i4'
+        'i5 i6'
+        'i7 i7'
+        'i7 i7';
+      @include respond(tab-port) {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 30rem 30rem 30rem;
+        grid-template-areas: 'i1 i1 i2 i3' 'i1 i1 i4 i4' 'i5 i6 i4 i4' 'i7 i7 i8 i9' 'i7 i7 i10 i11';
+      }
+      .img-cont {
+        border-radius: 5px;
+        overflow: hidden;
+        @include respond(tab-port) {
+          &:last-child {
+            display: none;
+          }
+        }
+        img {
+          width: 100%;
+          object-fit: cover;
+          height: 100%;
+          object-position: center;
+          transition: 0.5s;
+          &:hover {
+            transform: scale(1.1);
+          }
+        }
+      }
+    }
+  }
 }
