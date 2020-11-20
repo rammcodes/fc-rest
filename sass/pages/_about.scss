@@ -128,11 +128,11 @@
 }
 
 .about-team {
-  padding: 5rem 0rem;
+  padding: 5rem 0rem 7rem 0;
   text-align: center;
   background-color: #111;
   @include respond(tab-port) {
-    padding: 8rem 0;
+    padding: 8rem 0 10rem 0;
   }
   .team {
     margin: 5rem 0 0 0;

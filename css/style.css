@@ -1063,12 +1063,12 @@ body {
     color: #c8c8c8; }
 
 .about-team {
-  padding: 5rem 0rem;
+  padding: 5rem 0rem 7rem 0;
   text-align: center;
   background-color: #111; }
   @media (min-width: 40.62em) {
     .about-team {
-      padding: 8rem 0; } }
+      padding: 8rem 0 10rem 0; } }
   .about-team .team {
     margin: 5rem 0 0 0; }
     @media (min-width: 40.62em) {
