@@ -252,7 +252,6 @@
     }
     &:nth-child(2) {
       z-index: 8;
-      min-height: 42rem;
       width: 95%;
       @include respond(tab-land) {
         width: 31%;

@@ -47,7 +47,7 @@
 .about-info {
   padding: 5rem 2rem;
   background: #111;
- // text-align: center;
+  // text-align: center;
   &--heading-secondary {
     margin-bottom: 3rem;
     letter-spacing: 3px;
@@ -127,6 +127,70 @@
   }
 }
 
+.about-team {
+  padding: 5rem 0rem;
+  text-align: center;
+  background-color: #111;
+  @include respond(tab-port) {
+    padding: 8rem 0;
+  }
+  .team {
+    margin: 5rem 0 0 0;
+    @include respond(tab-port) {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .member {
+      border-bottom: 1px solid $clr-yellow;
+      padding-bottom: 3rem;
+      background: #000;
+      max-width: 50rem;
+      margin: 0 auto 3rem auto;
+      width: 90%;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+      @include respond(tab-port) {
+        width: calc(50% - 3rem);
+        margin-bottom: 6rem;
+      }
+      @include respond(tab-land) {
+        margin-bottom: 0;
+        width: calc(25% - 3rem);
+      }
+      :nth-child(3) {
+        @include respond(tab-port) {
+          margin-bottom: 0;
+        }
+      }
+      :last-child {
+        margin-bottom: 0;
+      }
+      .member-img-cont {
+        width: 100%;
+        margin-bottom: 3rem;
+        img {
+          width: 100%;
+        }
+      }
+      .member-name {
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        font-weight: 400;
+        color: #eee;
+      }
+      .member-prof {
+        color: $clr-yellow;
+        font-size: 1.2rem;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
 .about--map {
-  background: #000;
+  background: #111;
 }
