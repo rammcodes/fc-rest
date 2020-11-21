@@ -23,15 +23,15 @@
   }
   &--heading-primary {
     margin-bottom: 1.5rem;
-   // animation: from-top 1s ease-out;
+    animation: from-left 1s ease-out;
   }
 
   &--text-primary {
     margin-bottom: 3rem;
- //   animation: from-top 1s ease-out;
+    animation: from-left 1s ease-out;
   }
   &--btn {
-
+    animation: from-right 1s ease-out;
   }
 }
 
@@ -69,7 +69,6 @@
 
   &__visual {
     padding: 2rem 2rem 0 2rem;
-    // animation: from-right 1s ease-out;
     @include respond(tab-land) {
       width: 40%;
     }
