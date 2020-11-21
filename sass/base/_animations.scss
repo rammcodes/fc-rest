@@ -26,10 +26,12 @@
 @keyframes from-right {
   0% {
     transform: translateX(100px);
+    opacity: 0;
   }
 
   100% {
     transform: translateY(0);
+    opacity: 1;
   }
 }
 
