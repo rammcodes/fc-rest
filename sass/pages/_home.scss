@@ -180,7 +180,7 @@
     background: #222;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     margin-bottom: 2.5rem;
-
+    transition: .3s ease-out;
     @include respond(tab-land) {
       width: 31%;
       margin-bottom: 0;
@@ -190,6 +190,10 @@
       @include respond(tab-land) {
         margin-bottom: 0;
       }
+    }
+    &:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      transform: translateY(-1rem);
     }
   }
   &__icon-cont {
@@ -241,7 +245,8 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     background-size: cover;
     top: 1.5rem;
-
+    transition: .3s ease-out;
+    
     @include respond(tab-land) {
       width: 31%;
     }
@@ -272,6 +277,10 @@
       img {
         width: 100%;
       }
+    }
+    &:hover {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      transform: translateY(-1rem);
     }
   }
   &__review {
