@@ -598,13 +598,9 @@ body {
     color: #fff;
     width: 93%; }
   .home-header--heading-primary {
-    margin-bottom: 1.5rem;
-    animation: from-top 1s ease-out; }
+    margin-bottom: 1.5rem; }
   .home-header--text-primary {
-    margin-bottom: 3rem;
-    animation: from-top 1s ease-out; }
-  .home-header--btn {
-    animation: from-bottom 1s ease-out; }
+    margin-bottom: 3rem; }
 
 .greetings {
   padding: 4rem 0;
