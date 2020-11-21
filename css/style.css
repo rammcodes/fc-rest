@@ -29,7 +29,13 @@ $breakpoint argument choices
 
 @keyframes from-bottom {
   0% {
-    transform: translateY(100px); }
+    transform: translateY(5rem); }
+  100% {
+    transform: translateY(0); } }
+
+@keyframes from-top {
+  0% {
+    transform: translateY(-5rem); }
   100% {
     transform: translateY(0); } }
 
@@ -356,14 +362,6 @@ body {
         padding: 3rem 0;
         color: #eee; }
 
-@keyframes from-top {
-  0% {
-    transform: translateX(-100%); }
-  50% {
-    transform: translateX(-50%); }
-  100% {
-    transform: translateX(0%); } }
-
 @-webkit-keyframes ani-mouse {
   0% {
     opacity: 1;
@@ -601,12 +599,12 @@ body {
     width: 93%; }
   .home-header--heading-primary {
     margin-bottom: 1.5rem;
-    animation: from-left 1s ease-out; }
+    animation: from-top 1s ease-out; }
   .home-header--text-primary {
     margin-bottom: 3rem;
-    animation: from-left 1s ease-out; }
+    animation: from-top 1s ease-out; }
   .home-header--btn {
-    animation: from-right 1s ease-out; }
+    animation: from-bottom 1s ease-out; }
 
 .greetings {
   padding: 4rem 0;
@@ -882,7 +880,7 @@ body {
         object-fit: cover;
         height: 100%;
         object-position: center;
-        transition: 0.5s; }
+        transition: .8s; }
         .gallery--main-container .images-cont .img-cont img:hover {
           transform: scale(1.1); }
 
