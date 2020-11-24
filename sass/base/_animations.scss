@@ -37,7 +37,7 @@
 
 @keyframes from-bottom {
   0% {
-    transform: translateY(5rem);
+    transform: translateY(10rem);
   }
 
   100% {
@@ -62,4 +62,8 @@
   100% {
     transform: rotateZ(0);
   }
+}
+
+.from-left {
+  animation: from-left 1s ease-out;
 }

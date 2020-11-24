@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
   </head>
   <body class="contact--body">
@@ -58,9 +59,13 @@
     <header class="contact-header">
       <div class="main-container">
         <h1 class="heading heading-primary contact-header--heading-primary">
-          <span class="heading-primary__sm contact-header--heading-primary__sm">Need Help</span>
+          <span
+            class="heading-primary__sm contact-header--heading-primary__sm"
+            data-aos="fade-up"
+            >Need Help</span
+          >
           <br />
-          Contact Us
+          <span data-aos="fade-up">Contact Us</span>
         </h1>
       </div>
     </header>
@@ -236,7 +241,12 @@
         </div>
       </div>
     </footer>
-
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      })
+    </script>
     <script src="./common.js"></script>
     <script
       src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD13_AH7q4z02SfIe2Otwqyq5E9hf4EDzs&callback=initMap&libraries=&v=weekly"

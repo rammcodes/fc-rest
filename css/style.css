@@ -31,7 +31,7 @@ $breakpoint argument choices
 
 @keyframes from-bottom {
   0% {
-    transform: translateY(5rem); }
+    transform: translateY(10rem); }
   100% {
     transform: translateY(0); } }
 
@@ -46,6 +46,9 @@ $breakpoint argument choices
     transform: rotateZ(-10deg); }
   100% {
     transform: rotateZ(0); } }
+
+.from-left {
+  animation: from-left 1s ease-out; }
 
 *,
 *::before,
@@ -506,7 +509,7 @@ body {
       display: flex; } }
   .contact-main__form-container {
     margin-top: -15rem;
-    animation: from-bottom 0.7s ease-out; }
+    animation: from-bottom 1s ease-out; }
     @media (min-width: 56.25em) {
       .contact-main__form-container {
         width: 50%; } }
@@ -600,13 +603,9 @@ body {
     color: #fff;
     width: 93%; }
   .home-header--heading-primary {
-    margin-bottom: 1.5rem;
-    animation: from-left 1s ease-out; }
+    margin-bottom: 1.5rem; }
   .home-header--text-primary {
-    margin-bottom: 3rem;
-    animation: from-left 1s ease-out; }
-  .home-header--btn {
-    animation: from-right 1s ease-out; }
+    margin-bottom: 3rem; }
 
 .greetings {
   padding: 4rem 0;

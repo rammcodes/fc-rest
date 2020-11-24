@@ -15,11 +15,8 @@ let navMenu = document.querySelector('.nav-menu')
 let fullScrMenu = document.querySelector('.fl-scr-menu')
 
 menuClose.addEventListener('click', () => {
-  console.log("noo")
   fullScrMenu.classList.add('none')
 })
-
-console.log(menuClose, navMenu, "ahhh")
 
 navMenu.addEventListener('click', () => {
   fullScrMenu.classList.remove('none')

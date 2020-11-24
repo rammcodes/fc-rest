@@ -13,6 +13,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
   </head>
   <body>
@@ -58,9 +59,13 @@
     <header class="menu-header">
       <div class="main-container">
         <h1 class="heading heading-primary menu-header--heading-primary">
-          <span class="heading-primary__sm menu-header--heading-primary__sm">Great</span>
+          <span
+            class="heading-primary__sm menu-header--heading-primary__sm"
+            data-aos="fade-up"
+            >Great</span
+          >
           <br />
-          Food Menu
+          <span data-aos="fade-up"> Food Menu </span>
         </h1>
       </div>
     </header>
@@ -131,7 +136,7 @@
               </div>
             </div>
           </div>
-          <div class="menu">
+          <div class="menu" data-aos="fade-up">
             <h3
               class="heading heading-secondary menu-section--heading-secondary"
             >
@@ -195,7 +200,7 @@
               </div>
             </div>
           </div>
-          <div class="menu">
+          <div class="menu" data-aos="fade-up">
             <h3
               class="heading heading-secondary menu-section--heading-secondary"
             >
@@ -259,7 +264,7 @@
               </div>
             </div>
           </div>
-          <div class="menu">
+          <div class="menu" data-aos="fade-up">
             <h3
               class="heading heading-secondary menu-section--heading-secondary"
             >
@@ -323,7 +328,7 @@
               </div>
             </div>
           </div>
-          <div class="menu">
+          <div class="menu" data-aos="fade-up">
             <h3
               class="heading heading-secondary menu-section--heading-secondary"
             >
@@ -453,7 +458,7 @@
               </div>
             </div>
           </div>
-          <div class="menu">
+          <div class="menu" data-aos="fade-up">
             <h3
               class="heading heading-secondary menu-section--heading-secondary"
             >
@@ -517,7 +522,7 @@
               </div>
             </div>
           </div>
-          <div class="menu">
+          <div class="menu" data-aos="fade-up">
             <h3
               class="heading heading-secondary menu-section--heading-secondary"
             >
@@ -581,7 +586,7 @@
               </div>
             </div>
           </div>
-          <div class="menu">
+          <div class="menu" data-aos="fade-up">
             <h3
               class="heading heading-secondary menu-section--heading-secondary"
             >
@@ -645,7 +650,7 @@
               </div>
             </div>
           </div>
-          <div class="menu">
+          <div class="menu" data-aos="fade-up">
             <h3
               class="heading heading-secondary menu-section--heading-secondary"
             >
@@ -789,6 +794,12 @@
         </div>
       </div>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+      })
+    </script>
     <script src="./common.js"></script>
   </body>
 </html>
