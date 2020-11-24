@@ -340,7 +340,7 @@ body {
   height: 100%;
   width: 100%;
   padding: 2rem 1.5rem;
-  animation: from-top .5s ease-in;
+  animation: from-left .5s ease-in;
   color: #eee; }
   .fl-scr-menu .icon-cont {
     width: 4rem;
