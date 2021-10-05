@@ -609,6 +609,8 @@ body {
     margin-bottom: 1.5rem; }
   .home-header--text-primary {
     margin-bottom: 3rem; }
+  .home-header--btn {
+    cursor: pointer; }
 
 .greetings {
   padding: 4rem 0;
