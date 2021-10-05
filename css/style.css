@@ -618,7 +618,7 @@ body {
       padding: 8rem 0; } }
   @media (min-width: 56.25em) {
     .greetings {
-      padding: 10rem 0; } }
+      padding: 8rem 0; } }
   @media (min-width: 56.25em) {
     .greetings--main-container {
       display: flex;
@@ -732,7 +732,7 @@ body {
     background: #222;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     margin-bottom: 2.5rem;
-    transition: .3s ease-out; }
+    transition: 0.3s ease-out; }
     @media (min-width: 56.25em) {
       .menu-features__feature {
         width: 31%;
@@ -786,7 +786,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     background-size: cover;
     top: 1.5rem;
-    transition: .3s ease-out; }
+    transition: 0.3s ease-out; }
     @media (min-width: 56.25em) {
       .testimonial__single-testimonial {
         width: 31%; } }
@@ -893,7 +893,7 @@ body {
         object-fit: cover;
         height: 100%;
         object-position: center;
-        transition: .8s; }
+        transition: 0.8s; }
         .gallery--main-container .images-cont .img-cont img:hover {
           transform: scale(1.1); }
 

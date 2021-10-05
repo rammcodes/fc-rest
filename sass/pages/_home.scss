@@ -23,7 +23,6 @@
   }
   &--heading-primary {
     margin-bottom: 1.5rem;
-    
   }
 
   &--text-primary {
@@ -38,7 +37,7 @@
     padding: 8rem 0;
   }
   @include respond(tab-land) {
-    padding: 10rem 0;
+    padding: 8rem 0;
   }
   &--main-container {
     @include respond(tab-land) {
@@ -176,7 +175,7 @@
     background: #222;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     margin-bottom: 2.5rem;
-    transition: .3s ease-out;
+    transition: 0.3s ease-out;
     @include respond(tab-land) {
       width: 31%;
       margin-bottom: 0;
@@ -241,8 +240,8 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
     background-size: cover;
     top: 1.5rem;
-    transition: .3s ease-out;
-    
+    transition: 0.3s ease-out;
+
     @include respond(tab-land) {
       width: 31%;
     }
@@ -384,7 +383,7 @@
           object-fit: cover;
           height: 100%;
           object-position: center;
-          transition: .8s;
+          transition: 0.8s;
           &:hover {
             transform: scale(1.1);
           }
